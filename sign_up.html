@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="./images/logo.png" width="125px">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a class="current" href="sign_up.html">Sign Up Here</a></li>
+				</ul>
+			</nav>
+			<img src="./images/cart.png" width="30px" height="30px">
+		</div>
+	</div>
+
+	<h2>Registration Form</h2>
+	<form action="#">
+		<fieldset>
+			<legend>User personal information</legend> 
+			<label>Enter your first name</label><br>  
+        	<input type="text" name="firstname"><br>
+
+        	<label>Enter your last name</label><br>  
+        	<input type="text" name="lastname"><br>
+
+        	<label>Enter your email</label><br>  
+         	<input type="email" name="email"><br> 
+
+         	<label for="phone">Enter a phone number:</label><br><br>
+  			<input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+  			<small>Format: 123-456-7890</small><br><br> 
+
+         	<label>Enter your state</label><br>  
+         	<input type="text" name="state"><br>  
+         	<label>Enter your city</label><br>  
+         	<input type="text" name="city"><br>
+
+         	<br>Enter your Address:<br>  
+         	<textarea></textarea><br>  
+         	<input type="submit" value="sign-up">
+		</fieldset>
+	</form>
+
+	<br><br>
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download Our App</h3>
+				<p>Download App for Android and ios mobile phone.</p>
+				<div class="app-logo">
+					<img src="./images/play-store.png">
+					<img src="./images/app-store.png">
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<img src="./images/logo-white.png">
+				<p>Our purpose is to sustainably make the pleasure<br> and benefits of
+				food items accessible to the many.</p>
+			</div>
+			<div class="footer-col-3">
+				<h3>Useful Links</h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Blog Post</li>
+					<li>Return Policy</li>
+					<li>Join Affiliate</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Follow Us</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>YouTube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">Copyright 2020 - Easy Tutorials</p>
+	</div>
+</div>
+</body>
+
+</html>
